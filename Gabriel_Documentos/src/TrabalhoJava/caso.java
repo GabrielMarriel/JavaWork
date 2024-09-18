@@ -30,7 +30,7 @@ public class caso {
                     System.out.println(aprovados[i]);
                     int tentativas = 0;
                     boolean contato = false;
-                    while (tentativas < 3 && !contato) {
+                    while (tentativas <= 3 && !contato) {
                         tentativas++;
                         contato = ThreadLocalRandom.current().nextBoolean();
                         if (contato) {
