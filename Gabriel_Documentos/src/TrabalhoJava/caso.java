@@ -25,7 +25,7 @@ public class caso {
                         System.out.println(candidatos[i] + " AGUARDANDO RESULTADO DOS DEMAIS CANDIDATOS");
                     }
                 }
-                System.out.println("\nCandidatos Selecionados:");
+                System.out.println("Candidatos Selecionados:");
                 for (int i = 0; i < aprovadosCount; i++) {
                     System.out.println(aprovados[i]);
                     int tentativas = 0;
